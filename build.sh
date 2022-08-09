@@ -14,10 +14,12 @@ cp /usr/share/doc/bspwm/examples/sxhkdrc sxhkd/sxhkdrc
 apt update
 
 # Add base packages
-sudo apt install unzip picom bspwm polybar sddm dunst qterminal thunar flameshot neofetch sxhkd git lxappearance xorg curl -y
+sudo apt install unzip picom bspwm polybar sddm dunst qterminal thunar flameshot neofetch sxhkd git lxappearance xorg nitrogen curl -y
 
 # install Albert
 sudo echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/Debian_11/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
 sudo curl -fsSL https://download.opensuse.org/repositories/home:manuelschneid3r/Debian_11/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_manuelschneid3r.gpg > /dev/null
 sudo apt update
 sudo apt install albert
+
+
